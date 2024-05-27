@@ -32,7 +32,7 @@ def convert_file(input_path, output_path):
 if __name__ == "__main__":
     import sys
     if len(sys.argv) != 3:
-        print("Usage: converter.py input_path output_path")
+        print("Usage: file_converter.py input_path output_path")
         sys.exit(1)
 
     input_path = sys.argv[1]
