@@ -28,7 +28,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile converter.py
+        pyinstaller --onefile file_converter.py
       shell: cmd
 
     - name: Upload EXE
